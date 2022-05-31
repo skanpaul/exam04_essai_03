@@ -6,7 +6,7 @@
 /*   By: ski <ski@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 11:07:00 by ski               #+#    #+#             */
-/*   Updated: 2022/05/31 11:44:58 by ski              ###   ########.fr       */
+/*   Updated: 2022/05/31 12:56:47 by ski              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -126,6 +126,7 @@ int main (int argc, char **argv, char **envp)
 	int i_end = 1;
 	int j_start = 1;
 
+	(void)argc;
 	p.output_type = TYPE_NORMAL;
 	p.stdin_original = dup(STDIN_FILENO);
 
